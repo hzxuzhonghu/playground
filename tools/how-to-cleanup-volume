@@ -1,0 +1,21 @@
+## How to check volume occupation
+
+```sh
+df -h
+```
+
+## How to check each directory hold
+
+```sh
+# 总览信息
+du -sh /
+# 具体子目录磁盘占用
+du -h --max-depth=3 /
+```
+
+
+## Cleanup docker disk
+
+```sh
+docker system prune --volumes
+```
