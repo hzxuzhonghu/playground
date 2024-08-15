@@ -29,7 +29,7 @@ spec:
           command:
             - fortio
             - server
-
+---
 apiVersion: v1
 kind: Service
 metadata:
