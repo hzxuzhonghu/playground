@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fortio-server
+  labels:
+    app: fortio-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fortio-server
+  template:
+    metadata:
+      labels:
+        app: fortio-server
+    spec:
+      containers:
+        - name: fortio-server
+          image: fortio/fortio:latest_release
+          ports:
+            - containerPort: 8080
+              name: http-port
+            - containerPort: 8078
+              name: udp-port
+            - containerPort: 8079
+              name: grpc-port
+            - containerPort: 8081
+              name: https-port
+          command:
+            - fortio
+            - server
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: fortio-server
+spec:
+  ports:
+    - name: http-port
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
+    - name: https-port
+      port: 8081
+      protocol: TCP
+      targetPort: 8081
+    - name: http2-grpc
+      port: 8079
+      protocol: TCP
+      targetPort: 8079
+    - name: udp-grpc
+      port: 8078
+      protocol: UDP
+      targetPort: 8078
+  selector:
+    app: fortio-server
