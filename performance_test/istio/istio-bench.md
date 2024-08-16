@@ -18,6 +18,15 @@ kubectl apply -f fortio-server.yaml
 
 we can deploy a waypoint called fortio-server-waypoint for the fortio-server service:
 
+
+Istio 1.22
+
+```bash
+istioctl x waypoint apply -n test --name fortio-server-waypoint
+
+```
+Istio 1.23
+
 ```bash
 istioctl waypoint apply -n test --name fortio-server-waypoint
 
