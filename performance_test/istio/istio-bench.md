@@ -35,8 +35,12 @@ istioctl waypoint apply -n test --name fortio-server-waypoint
 Label the fortio-server service to use the fortio-server-waypoint waypoint:
 
 ```bash
-kubectl label service fortio-server istio.io/use-waypoint=fortio-server-waypoint
+kubectl label service fortio-server -n test istio.io/use-waypoint=fortio-server-waypoint
 ```
 
 
 ## Run fortio test
+
+```
+sh ../test.sh
+```
