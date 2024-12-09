@@ -1,0 +1,23 @@
+[91m[0mFortio 1.66.5 running at 0 queries per second, 4->4 procs, for 30s: http://fortio-server.test:8080
+Aggregated Function Time : count 1877150 avg 0.00012748572 +/- 8.858e-05 min 4.5565e-05 max 0.008007748 sum 239.309812
+# target 50% 0.000523087
+# target 75% 0.000761848
+# target 90% 0.000905105
+# target 99% 0.000991059
+# target 99.9% 0.000999654
+Error cases : count 0 avg 0 +/- 0 min 0 max 0 sum 0
+# Socket and IP used for each connection:
+[0]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000273773 +/- 0 min 0.000273773 max 0.000273773 sum 0.000273773
+[1]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000337814 +/- 0 min 0.000337814 max 0.000337814 sum 0.000337814
+[2]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000210259 +/- 0 min 0.000210259 max 0.000210259 sum 0.000210259
+[3]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00014803 +/- 0 min 0.00014803 max 0.00014803 sum 0.00014803
+[4]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000286674 +/- 0 min 0.000286674 max 0.000286674 sum 0.000286674
+[5]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000256794 +/- 0 min 0.000256794 max 0.000256794 sum 0.000256794
+[6]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000160599 +/- 0 min 0.000160599 max 0.000160599 sum 0.000160599
+[7]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000333987 +/- 0 min 0.000333987 max 0.000333987 sum 0.000333987
+Sockets used: 8 (for perfect keepalive, would be 8)
+Uniform: false, Jitter: false, Catchup allowed: true
+IP addresses distribution:
+10.241.35.179:8080: 8
+Code 200 : 1877150 (100.0 %)
+All done 1877150 calls (plus 8 warmup) 0.127 ms avg, 62571.5 qps

@@ -1,0 +1,31 @@
+[91m[0mFortio 1.66.5 running at 1024 queries per second, 4->4 procs, for 30s: http://fortio-server.test:8080
+Aggregated Function Time : count 30720 avg 0.00022128831 +/- 8.673e-05 min 8.132e-05 max 0.003560131 sum 6.79797681
+# target 50% 0.000540899
+# target 75% 0.000770704
+# target 90% 0.000908587
+# target 99% 0.000991316
+# target 99.9% 0.000999589
+Error cases : count 0 avg 0 +/- 0 min 0 max 0 sum 0
+# Socket and IP used for each connection:
+[0]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000159099 +/- 0 min 0.000159099 max 0.000159099 sum 0.000159099
+[1]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000364514 +/- 0 min 0.000364514 max 0.000364514 sum 0.000364514
+[2]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000220384 +/- 0 min 0.000220384 max 0.000220384 sum 0.000220384
+[3]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000432995 +/- 0 min 0.000432995 max 0.000432995 sum 0.000432995
+[4]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000341834 +/- 0 min 0.000341834 max 0.000341834 sum 0.000341834
+[5]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000268459 +/- 0 min 0.000268459 max 0.000268459 sum 0.000268459
+[6]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000189984 +/- 0 min 0.000189984 max 0.000189984 sum 0.000189984
+[7]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000110353 +/- 0 min 0.000110353 max 0.000110353 sum 0.000110353
+[8]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00010961 +/- 0 min 0.00010961 max 0.00010961 sum 0.00010961
+[9]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000388352 +/- 0 min 0.000388352 max 0.000388352 sum 0.000388352
+[10]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000283015 +/- 0 min 0.000283015 max 0.000283015 sum 0.000283015
+[11]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000153449 +/- 0 min 0.000153449 max 0.000153449 sum 0.000153449
+[12]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000149028 +/- 0 min 0.000149028 max 0.000149028 sum 0.000149028
+[13]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000123096 +/- 0 min 0.000123096 max 0.000123096 sum 0.000123096
+[14]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000133452 +/- 0 min 0.000133452 max 0.000133452 sum 0.000133452
+[15]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000304205 +/- 0 min 0.000304205 max 0.000304205 sum 0.000304205
+Sockets used: 16 (for perfect keepalive, would be 16)
+Uniform: false, Jitter: false, Catchup allowed: true
+IP addresses distribution:
+10.241.35.179:8080: 16
+Code 200 : 30720 (100.0 %)
+All done 30720 calls (plus 16 warmup) 0.221 ms avg, 1024.0 qps

@@ -1,0 +1,17 @@
+kubectl exec -it deploy/fortio-client -n test -- fortio load -quiet -c 1 -t 1m -keepalive=true -qps 0 http://fortio-server.test:8080
+[91m[0mFortio 1.66.5 running at 0 queries per second, 4->4 procs, for 1m0s: http://fortio-server.test:8080
+Aggregated Function Time : count 713236 avg 8.3907877e-05 +/- 4.83e-05 min 5.07e-05 max 0.011175448 sum 59.8461183
+# target 50% 0.000525438
+# target 75% 0.000762807
+# target 90% 0.000905229
+# target 99% 0.000990682
+# target 99.9% 0.000999228
+Error cases : count 0 avg 0 +/- 0 min 0 max 0 sum 0
+# Socket and IP used for each connection:
+[0]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000304765 +/- 0 min 0.000304765 max 0.000304765 sum 0.000304765
+Sockets used: 1 (for perfect keepalive, would be 1)
+Uniform: false, Jitter: false, Catchup allowed: true
+IP addresses distribution:
+10.241.35.179:8080: 1
+Code 200 : 713236 (100.0 %)
+All done 713236 calls (plus 1 warmup) 0.084 ms avg, 11887.3 qps

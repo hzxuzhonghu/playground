@@ -1,0 +1,143 @@
+[91m[0mFortio 1.66.5 running at 1024 queries per second, 4->4 procs, for 30s: http://fortio-server.test:8080
+Aggregated Function Time : count 30720 avg 0.010966189 +/- 0.002544 min 0.005803041 max 0.040325229 sum 336.881322
+# target 50% 0.0105299
+# target 75% 0.0117389
+# target 90% 0.0138565
+# target 99% 0.0159354
+# target 99.9% 0.0395037
+Error cases : count 0 avg 0 +/- 0 min 0 max 0 sum 0
+# Socket and IP used for each connection:
+[0]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00033234 +/- 0 min 0.00033234 max 0.00033234 sum 0.00033234
+[1]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000227189 +/- 0 min 0.000227189 max 0.000227189 sum 0.000227189
+[2]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000128229 +/- 0 min 0.000128229 max 0.000128229 sum 0.000128229
+[3]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000253785 +/- 0 min 0.000253785 max 0.000253785 sum 0.000253785
+[4]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000217865 +/- 0 min 0.000217865 max 0.000217865 sum 0.000217865
+[5]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000587658 +/- 0 min 0.000587658 max 0.000587658 sum 0.000587658
+[6]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000539297 +/- 0 min 0.000539297 max 0.000539297 sum 0.000539297
+[7]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00027422 +/- 0 min 0.00027422 max 0.00027422 sum 0.00027422
+[8]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000253337 +/- 0 min 0.000253337 max 0.000253337 sum 0.000253337
+[9]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001256079 +/- 0 min 0.001256079 max 0.001256079 sum 0.001256079
+[10]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001087925 +/- 0 min 0.001087925 max 0.001087925 sum 0.001087925
+[11]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000996386 +/- 0 min 0.000996386 max 0.000996386 sum 0.000996386
+[12]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000832958 +/- 0 min 0.000832958 max 0.000832958 sum 0.000832958
+[13]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000746911 +/- 0 min 0.000746911 max 0.000746911 sum 0.000746911
+[14]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000584553 +/- 0 min 0.000584553 max 0.000584553 sum 0.000584553
+[15]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000202295 +/- 0 min 0.000202295 max 0.000202295 sum 0.000202295
+[16]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001642741 +/- 0 min 0.001642741 max 0.001642741 sum 0.001642741
+[17]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001564801 +/- 0 min 0.001564801 max 0.001564801 sum 0.001564801
+[18]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001386062 +/- 0 min 0.001386062 max 0.001386062 sum 0.001386062
+[19]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001236918 +/- 0 min 0.001236918 max 0.001236918 sum 0.001236918
+[20]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001094743 +/- 0 min 0.001094743 max 0.001094743 sum 0.001094743
+[21]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000964744 +/- 0 min 0.000964744 max 0.000964744 sum 0.000964744
+[22]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000870584 +/- 0 min 0.000870584 max 0.000870584 sum 0.000870584
+[23]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000667481 +/- 0 min 0.000667481 max 0.000667481 sum 0.000667481
+[24]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000583699 +/- 0 min 0.000583699 max 0.000583699 sum 0.000583699
+[25]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00045925 +/- 0 min 0.00045925 max 0.00045925 sum 0.00045925
+[26]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000290676 +/- 0 min 0.000290676 max 0.000290676 sum 0.000290676
+[27]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000149997 +/- 0 min 0.000149997 max 0.000149997 sum 0.000149997
+[28]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001041915 +/- 0 min 0.001041915 max 0.001041915 sum 0.001041915
+[29]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000908791 +/- 0 min 0.000908791 max 0.000908791 sum 0.000908791
+[30]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00081291 +/- 0 min 0.00081291 max 0.00081291 sum 0.00081291
+[31]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.016782705 +/- 0 min 0.016782705 max 0.016782705 sum 0.016782705
+[32]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.002621795 +/- 0 min 0.002621795 max 0.002621795 sum 0.002621795
+[33]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.002415056 +/- 0 min 0.002415056 max 0.002415056 sum 0.002415056
+[34]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.002273667 +/- 0 min 0.002273667 max 0.002273667 sum 0.002273667
+[35]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.002031167 +/- 0 min 0.002031167 max 0.002031167 sum 0.002031167
+[36]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00190158 +/- 0 min 0.00190158 max 0.00190158 sum 0.00190158
+[37]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001774977 +/- 0 min 0.001774977 max 0.001774977 sum 0.001774977
+[38]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001614759 +/- 0 min 0.001614759 max 0.001614759 sum 0.001614759
+[39]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001454605 +/- 0 min 0.001454605 max 0.001454605 sum 0.001454605
+[40]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001900597 +/- 0 min 0.001900597 max 0.001900597 sum 0.001900597
+[41]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000494532 +/- 0 min 0.000494532 max 0.000494532 sum 0.000494532
+[42]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000167369 +/- 0 min 0.000167369 max 0.000167369 sum 0.000167369
+[43]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.021479201 +/- 0 min 0.021479201 max 0.021479201 sum 0.021479201
+[44]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.02151242 +/- 0 min 0.02151242 max 0.02151242 sum 0.02151242
+[45]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000369689 +/- 0 min 0.000369689 max 0.000369689 sum 0.000369689
+[46]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000256381 +/- 0 min 0.000256381 max 0.000256381 sum 0.000256381
+[47]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001415077 +/- 0 min 0.001415077 max 0.001415077 sum 0.001415077
+[48]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00118879 +/- 0 min 0.00118879 max 0.00118879 sum 0.00118879
+[49]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000977403 +/- 0 min 0.000977403 max 0.000977403 sum 0.000977403
+[50]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000907305 +/- 0 min 0.000907305 max 0.000907305 sum 0.000907305
+[51]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000661482 +/- 0 min 0.000661482 max 0.000661482 sum 0.000661482
+[52]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000297213 +/- 0 min 0.000297213 max 0.000297213 sum 0.000297213
+[53]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001688089 +/- 0 min 0.001688089 max 0.001688089 sum 0.001688089
+[54]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001544662 +/- 0 min 0.001544662 max 0.001544662 sum 0.001544662
+[55]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001407971 +/- 0 min 0.001407971 max 0.001407971 sum 0.001407971
+[56]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001269498 +/- 0 min 0.001269498 max 0.001269498 sum 0.001269498
+[57]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001153293 +/- 0 min 0.001153293 max 0.001153293 sum 0.001153293
+[58]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000973151 +/- 0 min 0.000973151 max 0.000973151 sum 0.000973151
+[59]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000804148 +/- 0 min 0.000804148 max 0.000804148 sum 0.000804148
+[60]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000600633 +/- 0 min 0.000600633 max 0.000600633 sum 0.000600633
+[61]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00034504 +/- 0 min 0.00034504 max 0.00034504 sum 0.00034504
+[62]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001037902 +/- 0 min 0.001037902 max 0.001037902 sum 0.001037902
+[63]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.016844466 +/- 0 min 0.016844466 max 0.016844466 sum 0.016844466
+[64]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.002581749 +/- 0 min 0.002581749 max 0.002581749 sum 0.002581749
+[65]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00234465 +/- 0 min 0.00234465 max 0.00234465 sum 0.00234465
+[66]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.002090684 +/- 0 min 0.002090684 max 0.002090684 sum 0.002090684
+[67]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001965046 +/- 0 min 0.001965046 max 0.001965046 sum 0.001965046
+[68]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001723184 +/- 0 min 0.001723184 max 0.001723184 sum 0.001723184
+[69]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001563246 +/- 0 min 0.001563246 max 0.001563246 sum 0.001563246
+[70]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001387902 +/- 0 min 0.001387902 max 0.001387902 sum 0.001387902
+[71]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001328604 +/- 0 min 0.001328604 max 0.001328604 sum 0.001328604
+[72]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000507207 +/- 0 min 0.000507207 max 0.000507207 sum 0.000507207
+[73]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001477931 +/- 0 min 0.001477931 max 0.001477931 sum 0.001477931
+[74]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00116288 +/- 0 min 0.00116288 max 0.00116288 sum 0.00116288
+[75]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000887374 +/- 0 min 0.000887374 max 0.000887374 sum 0.000887374
+[76]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000550508 +/- 0 min 0.000550508 max 0.000550508 sum 0.000550508
+[77]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001002218 +/- 0 min 0.001002218 max 0.001002218 sum 0.001002218
+[78]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000746766 +/- 0 min 0.000746766 max 0.000746766 sum 0.000746766
+[79]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000422828 +/- 0 min 0.000422828 max 0.000422828 sum 0.000422828
+[80]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000264209 +/- 0 min 0.000264209 max 0.000264209 sum 0.000264209
+[81]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.016346111 +/- 0 min 0.016346111 max 0.016346111 sum 0.016346111
+[82]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.002687912 +/- 0 min 0.002687912 max 0.002687912 sum 0.002687912
+[83]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00247655 +/- 0 min 0.00247655 max 0.00247655 sum 0.00247655
+[84]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00222062 +/- 0 min 0.00222062 max 0.00222062 sum 0.00222062
+[85]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001860803 +/- 0 min 0.001860803 max 0.001860803 sum 0.001860803
+[86]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001430539 +/- 0 min 0.001430539 max 0.001430539 sum 0.001430539
+[87]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001159527 +/- 0 min 0.001159527 max 0.001159527 sum 0.001159527
+[88]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001012409 +/- 0 min 0.001012409 max 0.001012409 sum 0.001012409
+[89]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00086869 +/- 0 min 0.00086869 max 0.00086869 sum 0.00086869
+[90]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000762478 +/- 0 min 0.000762478 max 0.000762478 sum 0.000762478
+[91]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000615474 +/- 0 min 0.000615474 max 0.000615474 sum 0.000615474
+[92]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00041781 +/- 0 min 0.00041781 max 0.00041781 sum 0.00041781
+[93]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00023176 +/- 0 min 0.00023176 max 0.00023176 sum 0.00023176
+[94]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000991764 +/- 0 min 0.000991764 max 0.000991764 sum 0.000991764
+[95]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000935042 +/- 0 min 0.000935042 max 0.000935042 sum 0.000935042
+[96]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000806471 +/- 0 min 0.000806471 max 0.000806471 sum 0.000806471
+[97]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00065396 +/- 0 min 0.00065396 max 0.00065396 sum 0.00065396
+[98]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000532193 +/- 0 min 0.000532193 max 0.000532193 sum 0.000532193
+[99]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000402225 +/- 0 min 0.000402225 max 0.000402225 sum 0.000402225
+[100]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000300188 +/- 0 min 0.000300188 max 0.000300188 sum 0.000300188
+[101]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000243728 +/- 0 min 0.000243728 max 0.000243728 sum 0.000243728
+[102]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00014177 +/- 0 min 0.00014177 max 0.00014177 sum 0.00014177
+[103]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001044747 +/- 0 min 0.001044747 max 0.001044747 sum 0.001044747
+[104]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.015160278 +/- 0 min 0.015160278 max 0.015160278 sum 0.015160278
+[105]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.001707928 +/- 0 min 0.001707928 max 0.001707928 sum 0.001707928
+[106]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000754224 +/- 0 min 0.000754224 max 0.000754224 sum 0.000754224
+[107]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000377002 +/- 0 min 0.000377002 max 0.000377002 sum 0.000377002
+[108]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000872518 +/- 0 min 0.000872518 max 0.000872518 sum 0.000872518
+[109]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000546292 +/- 0 min 0.000546292 max 0.000546292 sum 0.000546292
+[110]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00118676 +/- 0 min 0.00118676 max 0.00118676 sum 0.00118676
+[111]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000927814 +/- 0 min 0.000927814 max 0.000927814 sum 0.000927814
+[112]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000789356 +/- 0 min 0.000789356 max 0.000789356 sum 0.000789356
+[113]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000658034 +/- 0 min 0.000658034 max 0.000658034 sum 0.000658034
+[114]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000491218 +/- 0 min 0.000491218 max 0.000491218 sum 0.000491218
+[115]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000349356 +/- 0 min 0.000349356 max 0.000349356 sum 0.000349356
+[116]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000217084 +/- 0 min 0.000217084 max 0.000217084 sum 0.000217084
+[117]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000711282 +/- 0 min 0.000711282 max 0.000711282 sum 0.000711282
+[118]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000588756 +/- 0 min 0.000588756 max 0.000588756 sum 0.000588756
+[119]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.00044942 +/- 0 min 0.00044942 max 0.00044942 sum 0.00044942
+[120]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000433275 +/- 0 min 0.000433275 max 0.000433275 sum 0.000433275
+[121]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000282407 +/- 0 min 0.000282407 max 0.000282407 sum 0.000282407
+[122]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000326001 +/- 0 min 0.000326001 max 0.000326001 sum 0.000326001
+[123]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.021237614 +/- 0 min 0.021237614 max 0.021237614 sum 0.021237614
+[124]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.021461673 +/- 0 min 0.021461673 max 0.021461673 sum 0.021461673
+[125]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.021526262 +/- 0 min 0.021526262 max 0.021526262 sum 0.021526262
+[126]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.021470689 +/- 0 min 0.021470689 max 0.021470689 sum 0.021470689
+[127]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000423941 +/- 0 min 0.000423941 max 0.000423941 sum 0.000423941
+Sockets used: 128 (for perfect keepalive, would be 128)
+Uniform: false, Jitter: false, Catchup allowed: true
+IP addresses distribution:
+10.241.35.179:8080: 128
+Code 200 : 30720 (100.0 %)
+All done 30720 calls (plus 128 warmup) 10.966 ms avg, 1023.6 qps

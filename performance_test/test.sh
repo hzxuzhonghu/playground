@@ -2,7 +2,7 @@
 
 
 mode=${1:-}
-qps=${2:0}
+qps=${2:-0}
 namespace=test
 client_address=deployment/fortio-client
 server_address=http://fortio-server.$namespace:8080

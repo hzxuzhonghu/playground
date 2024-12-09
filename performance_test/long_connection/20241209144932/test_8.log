@@ -1,0 +1,24 @@
+kubectl exec -it deploy/fortio-client -n test -- fortio load -quiet -c 8 -t 1m -keepalive=true -qps 0 http://fortio-server.test:8080
+[91m[0mFortio 1.66.5 running at 0 queries per second, 4->4 procs, for 1m0s: http://fortio-server.test:8080
+Aggregated Function Time : count 3560423 avg 0.00013441908 +/- 9.388e-05 min 4.3572e-05 max 0.014701513 sum 478.588771
+# target 50% 0.000522139
+# target 75% 0.000761422
+# target 90% 0.000904992
+# target 99% 0.000991134
+# target 99.9% 0.000999749
+Error cases : count 0 avg 0 +/- 0 min 0 max 0 sum 0
+# Socket and IP used for each connection:
+[0]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000195411 +/- 0 min 0.000195411 max 0.000195411 sum 0.000195411
+[1]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000275874 +/- 0 min 0.000275874 max 0.000275874 sum 0.000275874
+[2]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000250227 +/- 0 min 0.000250227 max 0.000250227 sum 0.000250227
+[3]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000194119 +/- 0 min 0.000194119 max 0.000194119 sum 0.000194119
+[4]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000134324 +/- 0 min 0.000134324 max 0.000134324 sum 0.000134324
+[5]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000190984 +/- 0 min 0.000190984 max 0.000190984 sum 0.000190984
+[6]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000161712 +/- 0 min 0.000161712 max 0.000161712 sum 0.000161712
+[7]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000258585 +/- 0 min 0.000258585 max 0.000258585 sum 0.000258585
+Sockets used: 8 (for perfect keepalive, would be 8)
+Uniform: false, Jitter: false, Catchup allowed: true
+IP addresses distribution:
+10.241.35.179:8080: 8
+Code 200 : 3560423 (100.0 %)
+All done 3560423 calls (plus 8 warmup) 0.134 ms avg, 59340.3 qps

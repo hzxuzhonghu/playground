@@ -1,0 +1,17 @@
+[91m[0mFortio 1.66.5 running at 0 queries per second, 4->4 procs, for 30s: http://fortio-server.test:8080
+Aggregated Function Time : count 170582 avg 0.00035149497 +/- 0.0001085 min 0.000236534 max 0.010398685 sum 59.9587151
+# target 50% 0.000618993
+# target 75% 0.000810225
+# target 90% 0.000924965
+# target 99% 0.000993808
+# target 99.9% 0.00170511
+Error cases : count 0 avg 0 +/- 0 min 0 max 0 sum 0
+# Socket and IP used for each connection:
+[0]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000249037 +/- 0 min 0.000249037 max 0.000249037 sum 0.000249037
+[1]   1 socket used, resolved to 10.241.35.179:8080, connection timing : count 1 avg 0.000266523 +/- 0 min 0.000266523 max 0.000266523 sum 0.000266523
+Sockets used: 2 (for perfect keepalive, would be 2)
+Uniform: false, Jitter: false, Catchup allowed: true
+IP addresses distribution:
+10.241.35.179:8080: 2
+Code 200 : 170582 (100.0 %)
+All done 170582 calls (plus 2 warmup) 0.351 ms avg, 5686.0 qps
