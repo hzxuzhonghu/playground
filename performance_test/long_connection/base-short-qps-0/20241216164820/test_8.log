@@ -1,0 +1,23 @@
+[91m[0mFortio 1.66.5 running at 0 queries per second, 4->4 procs, for 30s: http://fortio-server.test:8080
+Aggregated Function Time : count 309898 avg 0.00077391007 +/- 0.0002901 min 0.000245039 max 0.017687705 sum 239.833184
+# target 50% 0.000664863
+# target 75% 0.000874776
+# target 90% 0.00100895
+# target 99% 0.00194367
+# target 99.9% 0.0041367
+Error cases : count 0 avg 0 +/- 0 min 0 max 0 sum 0
+# Socket and IP used for each connection:
+[0] 38724 socket used, resolved to 10.241.35.179:8080, connection timing : count 38724 avg 0.00016182045 +/- 0.000112 min 7.3377e-05 max 0.00653862 sum 6.26633524
+[1] 38690 socket used, resolved to 10.241.35.179:8080, connection timing : count 38690 avg 0.00016187818 +/- 0.0001075 min 7.3042e-05 max 0.006563662 sum 6.26306691
+[2] 38804 socket used, resolved to 10.241.35.179:8080, connection timing : count 38804 avg 0.00016108582 +/- 0.0001106 min 7.412e-05 max 0.006741842 sum 6.25077435
+[3] 38773 socket used, resolved to 10.241.35.179:8080, connection timing : count 38773 avg 0.00016106585 +/- 0.0001119 min 7.5912e-05 max 0.006448736 sum 6.24500631
+[4] 38723 socket used, resolved to 10.241.35.179:8080, connection timing : count 38723 avg 0.00016168925 +/- 0.000144 min 7.6772e-05 max 0.016788172 sum 6.26109296
+[5] 38679 socket used, resolved to 10.241.35.179:8080, connection timing : count 38679 avg 0.00016109934 +/- 0.000113 min 7.4358e-05 max 0.006548121 sum 6.23116124
+[6] 38784 socket used, resolved to 10.241.35.179:8080, connection timing : count 38784 avg 0.00016148566 +/- 0.000117 min 6.9752e-05 max 0.0068488 sum 6.26305978
+[7] 38729 socket used, resolved to 10.241.35.179:8080, connection timing : count 38729 avg 0.00016177783 +/- 0.0001187 min 6.8484e-05 max 0.006558624 sum 6.2654935
+Sockets used: 309906 (for perfect keepalive, would be 8)
+Uniform: false, Jitter: false, Catchup allowed: true
+IP addresses distribution:
+10.241.35.179:8080: 309906
+Code 200 : 309898 (100.0 %)
+All done 309898 calls (plus 8 warmup) 0.774 ms avg, 10329.8 qps

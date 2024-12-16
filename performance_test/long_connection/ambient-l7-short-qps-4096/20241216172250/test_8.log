@@ -1,0 +1,29 @@
+[91m[0mFortio 1.66.5 running at 4096 queries per second, 4->4 procs, for 30s: http://fortio-server.test:8080
+Aggregated Sleep Time : count 89339 avg -4.1048923 +/- 2.364 min -8.272905819 max -0.000586548 sum -366726.976
+# range, mid point, percentile, count
+>= -8.27291 <= -0.001 , -4.13695 , 99.99, 89332
+> -0.001 <= -0.000586548 , -0.000793274 , 100.00, 7
+# target 50% -4.13668
+WARNING 99.99% of sleep were falling behind
+Aggregated Function Time : count 89339 avg 0.0026769289 +/- 0.0005583 min 0.000973312 max 0.013357592 sum 239.154151
+# target 50% 0.00257133
+# target 75% 0.00288697
+# target 90% 0.00345843
+# target 99% 0.0048078
+# target 99.9% 0.00787571
+Error cases : count 0 avg 0 +/- 0 min 0 max 0 sum 0
+# Socket and IP used for each connection:
+[0] 11185 socket used, resolved to 10.241.35.179:8080, connection timing : count 11185 avg 0.00011594101 +/- 0.0001052 min 2.8465e-05 max 0.004294553 sum 1.29680023
+[1] 11173 socket used, resolved to 10.241.35.179:8080, connection timing : count 11173 avg 0.00011565136 +/- 0.0001221 min 2.7631e-05 max 0.00614729 sum 1.29217269
+[2] 11165 socket used, resolved to 10.241.35.179:8080, connection timing : count 11165 avg 0.00011597164 +/- 0.0001126 min 2.8367e-05 max 0.006155733 sum 1.29482335
+[3] 11184 socket used, resolved to 10.241.35.179:8080, connection timing : count 11184 avg 0.00011494501 +/- 9.33e-05 min 2.8254e-05 max 0.00204862 sum 1.285545
+[4] 11160 socket used, resolved to 10.241.35.179:8080, connection timing : count 11160 avg 0.00011525385 +/- 0.0001146 min 2.6331e-05 max 0.005153967 sum 1.28623295
+[5] 11159 socket used, resolved to 10.241.35.179:8080, connection timing : count 11159 avg 0.00011619812 +/- 0.000136 min 2.7852e-05 max 0.007891907 sum 1.29665479
+[6] 11196 socket used, resolved to 10.241.35.179:8080, connection timing : count 11196 avg 0.00011350341 +/- 9.282e-05 min 2.8564e-05 max 0.002045703 sum 1.27078421
+[7] 11125 socket used, resolved to 10.241.35.179:8080, connection timing : count 11125 avg 0.00011599524 +/- 0.0001074 min 2.7316e-05 max 0.00393322 sum 1.29044702
+Sockets used: 89347 (for perfect keepalive, would be 8)
+Uniform: false, Jitter: false, Catchup allowed: true
+IP addresses distribution:
+10.241.35.179:8080: 89347
+Code 200 : 89339 (100.0 %)
+All done 89339 calls (plus 8 warmup) 2.677 ms avg, 2976.9 qps

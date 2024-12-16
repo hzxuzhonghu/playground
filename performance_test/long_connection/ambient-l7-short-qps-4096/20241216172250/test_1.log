@@ -1,0 +1,21 @@
+[91m[0mFortio 1.66.5 running at 4096 queries per second, 4->4 procs, for 30s: http://fortio-server.test:8080
+Aggregated Sleep Time : count 22326 avg -12.33233 +/- 7.09 min -24.55055124 max -0.001550449 sum -275331.609
+# range, mid point, percentile, count
+>= -24.5506 <= -0.00155045 , -12.2761 , 100.00, 22326
+# target 50% -12.2766
+WARNING 100.00% of sleep were falling behind
+Aggregated Function Time : count 22326 avg 0.0013349963 +/- 0.0001935 min 0.001098349 max 0.008124069 sum 29.8051274
+# target 50% 0.001552
+# target 75% 0.00177884
+# target 90% 0.00191495
+# target 99% 0.00199662
+# target 99.9% 0.00466771
+Error cases : count 0 avg 0 +/- 0 min 0 max 0 sum 0
+# Socket and IP used for each connection:
+[0] 22327 socket used, resolved to 10.241.35.179:8080, connection timing : count 22327 avg 7.9070909e-05 +/- 3.168e-05 min 4.2398e-05 max 0.001008516 sum 1.76541619
+Sockets used: 22327 (for perfect keepalive, would be 1)
+Uniform: false, Jitter: false, Catchup allowed: true
+IP addresses distribution:
+10.241.35.179:8080: 22327
+Code 200 : 22326 (100.0 %)
+All done 22326 calls (plus 1 warmup) 1.335 ms avg, 744.2 qps

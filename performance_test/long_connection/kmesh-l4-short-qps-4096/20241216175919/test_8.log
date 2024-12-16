@@ -1,0 +1,23 @@
+[91m[0mFortio 1.66.5 running at 4096 queries per second, 4->4 procs, for 30s: http://fortio-server.test:8080
+Aggregated Function Time : count 122880 avg 0.00093560066 +/- 0.0003249 min 0.000340146 max 0.018705358 sum 114.966609
+# target 50% 0.00074814
+# target 75% 0.000952141
+# target 90% 0.00150118
+# target 99% 0.00199496
+# target 99.9% 0.00526348
+Error cases : count 0 avg 0 +/- 0 min 0 max 0 sum 0
+# Socket and IP used for each connection:
+[0] 15361 socket used, resolved to 10.241.35.179:8080, connection timing : count 15361 avg 0.00022033971 +/- 0.0001415 min 7.9011e-05 max 0.005762538 sum 3.38463834
+[1] 15361 socket used, resolved to 10.241.35.179:8080, connection timing : count 15361 avg 0.00021911666 +/- 0.000136 min 7.6978e-05 max 0.005879705 sum 3.36585101
+[2] 15361 socket used, resolved to 10.241.35.179:8080, connection timing : count 15361 avg 0.00021706136 +/- 0.0001144 min 7.4701e-05 max 0.004928629 sum 3.3342795
+[3] 15361 socket used, resolved to 10.241.35.179:8080, connection timing : count 15361 avg 0.00021736993 +/- 0.0001296 min 7.9693e-05 max 0.00580554 sum 3.33901947
+[4] 15361 socket used, resolved to 10.241.35.179:8080, connection timing : count 15361 avg 0.00021875643 +/- 0.000125 min 8.0891e-05 max 0.007346431 sum 3.36031751
+[5] 15361 socket used, resolved to 10.241.35.179:8080, connection timing : count 15361 avg 0.00021791514 +/- 0.0001658 min 7.9705e-05 max 0.012094041 sum 3.34739448
+[6] 15361 socket used, resolved to 10.241.35.179:8080, connection timing : count 15361 avg 0.00021980292 +/- 0.0001349 min 8.2806e-05 max 0.005347482 sum 3.37639263
+[7] 15361 socket used, resolved to 10.241.35.179:8080, connection timing : count 15361 avg 0.00021582857 +/- 0.0001057 min 8.2449e-05 max 0.003544571 sum 3.31534263
+Sockets used: 122888 (for perfect keepalive, would be 8)
+Uniform: false, Jitter: false, Catchup allowed: true
+IP addresses distribution:
+10.241.35.179:8080: 122888
+Code 200 : 122880 (100.0 %)
+All done 122880 calls (plus 8 warmup) 0.936 ms avg, 4095.7 qps

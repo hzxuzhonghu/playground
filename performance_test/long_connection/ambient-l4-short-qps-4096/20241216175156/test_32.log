@@ -1,0 +1,47 @@
+[91m[0mFortio 1.66.5 running at 4096 queries per second, 4->4 procs, for 30s: http://fortio-server.test:8080
+Aggregated Function Time : count 122880 avg 0.0035496207 +/- 0.0009296 min 0.000714925 max 0.031940798 sum 436.177387
+# target 50% 0.00348033
+# target 75% 0.00388402
+# target 90% 0.00454036
+# target 99% 0.00677442
+# target 99.9% 0.01314
+Error cases : count 0 avg 0 +/- 0 min 0 max 0 sum 0
+# Socket and IP used for each connection:
+[0] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.000256527 +/- 0.0002732 min 3.0618e-05 max 0.005831466 sum 0.985320218
+[1] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025856709 +/- 0.0003197 min 2.9699e-05 max 0.01209689 sum 0.993156183
+[2] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025373715 +/- 0.000254 min 2.5323e-05 max 0.005114391 sum 0.974604411
+[3] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025445734 +/- 0.0002994 min 2.7815e-05 max 0.009505927 sum 0.977370632
+[4] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00026189273 +/- 0.0003252 min 2.8293e-05 max 0.012063716 sum 1.00592997
+[5] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025632264 +/- 0.000262 min 3.2765e-05 max 0.005714142 sum 0.984535271
+[6] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00026201668 +/- 0.0002732 min 2.9551e-05 max 0.006038251 sum 1.00640608
+[7] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025854283 +/- 0.0002659 min 2.9538e-05 max 0.006206327 sum 0.993063017
+[8] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00026773317 +/- 0.0003903 min 3.027e-05 max 0.012927004 sum 1.02836311
+[9] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025813715 +/- 0.0002731 min 2.9577e-05 max 0.005340821 sum 0.991504786
+[10] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.0002644356 +/- 0.0003261 min 3.3435e-05 max 0.012184313 sum 1.01569714
+[11] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00026082275 +/- 0.0003728 min 3.0185e-05 max 0.01578119 sum 1.00182016
+[12] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025640811 +/- 0.0003303 min 3.7415e-05 max 0.012100595 sum 0.984863558
+[13] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025314685 +/- 0.0002632 min 2.9361e-05 max 0.006317945 sum 0.972337059
+[14] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00026320526 +/- 0.0002937 min 2.7225e-05 max 0.00609172 sum 1.01097141
+[15] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00026107535 +/- 0.0002992 min 2.7614e-05 max 0.008602863 sum 1.00279043
+[16] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025566319 +/- 0.0003068 min 3.0364e-05 max 0.008236168 sum 0.982002309
+[17] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025694534 +/- 0.0002499 min 2.9945e-05 max 0.005229907 sum 0.986927061
+[18] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025931588 +/- 0.0002806 min 2.7487e-05 max 0.006264832 sum 0.996032302
+[19] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025680397 +/- 0.0002465 min 3.5714e-05 max 0.006037726 sum 0.986384041
+[20] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.0002564366 +/- 0.0002524 min 3.446e-05 max 0.004926915 sum 0.984972982
+[21] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025612312 +/- 0.0002495 min 3.0262e-05 max 0.005828854 sum 0.983768892
+[22] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025739725 +/- 0.0002583 min 3.1209e-05 max 0.005282845 sum 0.98866285
+[23] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025859061 +/- 0.0002547 min 3.6021e-05 max 0.005984661 sum 0.993246532
+[24] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025245139 +/- 0.0002501 min 2.9333e-05 max 0.005335737 sum 0.969665781
+[25] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025838569 +/- 0.000251 min 3.9119e-05 max 0.004054352 sum 0.99245945
+[26] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025805967 +/- 0.0002575 min 2.6959e-05 max 0.00539008 sum 0.991207208
+[27] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025448521 +/- 0.0002748 min 3.7734e-05 max 0.00615059 sum 0.977477705
+[28] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00026135908 +/- 0.0002626 min 3.0297e-05 max 0.005060752 sum 1.00388024
+[29] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025420777 +/- 0.0002562 min 3.3409e-05 max 0.00576734 sum 0.976412046
+[30] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025543177 +/- 0.000254 min 2.7373e-05 max 0.005881131 sum 0.981113411
+[31] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00025466479 +/- 0.0002619 min 3.5297e-05 max 0.006472145 sum 0.978167457
+Sockets used: 122912 (for perfect keepalive, would be 32)
+Uniform: false, Jitter: false, Catchup allowed: true
+IP addresses distribution:
+10.241.35.179:8080: 122912
+Code 200 : 122880 (100.0 %)
+All done 122880 calls (plus 32 warmup) 3.550 ms avg, 4095.4 qps

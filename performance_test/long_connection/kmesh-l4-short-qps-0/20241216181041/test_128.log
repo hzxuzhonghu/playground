@@ -1,0 +1,143 @@
+[91m[0mFortio 1.66.5 running at 0 queries per second, 4->4 procs, for 30s: http://fortio-server.test:8080
+Aggregated Function Time : count 515286 avg 0.0074516901 +/- 0.00343 min 0.000351082 max 0.045725593 sum 3839.75159
+# target 50% 0.00682711
+# target 75% 0.00908498
+# target 90% 0.0117968
+# target 99% 0.0191341
+# target 99.9% 0.0272924
+Error cases : count 0 avg 0 +/- 0 min 0 max 0 sum 0
+# Socket and IP used for each connection:
+[0] 4019 socket used, resolved to 10.241.35.179:8080, connection timing : count 4019 avg 0.0015096963 +/- 0.001597 min 8.6621e-05 max 0.018803783 sum 6.06746933
+[1] 4057 socket used, resolved to 10.241.35.179:8080, connection timing : count 4057 avg 0.0014998379 +/- 0.001591 min 8.891e-05 max 0.021561455 sum 6.08484226
+[2] 4034 socket used, resolved to 10.241.35.179:8080, connection timing : count 4034 avg 0.0014660113 +/- 0.001584 min 8.1825e-05 max 0.020313115 sum 5.91388977
+[3] 4042 socket used, resolved to 10.241.35.179:8080, connection timing : count 4042 avg 0.0015120124 +/- 0.001675 min 8.487e-05 max 0.025881559 sum 6.1115542
+[4] 4042 socket used, resolved to 10.241.35.179:8080, connection timing : count 4042 avg 0.0014583701 +/- 0.001528 min 8.6174e-05 max 0.014946691 sum 5.89473187
+[5] 4024 socket used, resolved to 10.241.35.179:8080, connection timing : count 4024 avg 0.0014739898 +/- 0.001571 min 8.5217e-05 max 0.021319717 sum 5.93133477
+[6] 4059 socket used, resolved to 10.241.35.179:8080, connection timing : count 4059 avg 0.0014806282 +/- 0.001577 min 9.3401e-05 max 0.016686148 sum 6.00986994
+[7] 4040 socket used, resolved to 10.241.35.179:8080, connection timing : count 4040 avg 0.0014955296 +/- 0.001582 min 8.6828e-05 max 0.015996852 sum 6.04193951
+[8] 4058 socket used, resolved to 10.241.35.179:8080, connection timing : count 4058 avg 0.0014893626 +/- 0.00156 min 8.8359e-05 max 0.014866163 sum 6.04383356
+[9] 4061 socket used, resolved to 10.241.35.179:8080, connection timing : count 4061 avg 0.0014696022 +/- 0.001495 min 8.3118e-05 max 0.016066341 sum 5.96805466
+[10] 4050 socket used, resolved to 10.241.35.179:8080, connection timing : count 4050 avg 0.0014832495 +/- 0.001567 min 8.53e-05 max 0.019438097 sum 6.00716037
+[11] 4054 socket used, resolved to 10.241.35.179:8080, connection timing : count 4054 avg 0.0014507394 +/- 0.001491 min 8.8608e-05 max 0.014534541 sum 5.88129766
+[12] 4005 socket used, resolved to 10.241.35.179:8080, connection timing : count 4005 avg 0.0015066718 +/- 0.001553 min 8.3167e-05 max 0.012995962 sum 6.03422071
+[13] 4026 socket used, resolved to 10.241.35.179:8080, connection timing : count 4026 avg 0.0015138601 +/- 0.001622 min 8.6374e-05 max 0.021502368 sum 6.09480091
+[14] 4032 socket used, resolved to 10.241.35.179:8080, connection timing : count 4032 avg 0.0014820384 +/- 0.001563 min 8.1176e-05 max 0.014732058 sum 5.97557894
+[15] 4004 socket used, resolved to 10.241.35.179:8080, connection timing : count 4004 avg 0.0015088574 +/- 0.001633 min 8.7033e-05 max 0.019056753 sum 6.0414649
+[16] 3987 socket used, resolved to 10.241.35.179:8080, connection timing : count 3987 avg 0.0014980618 +/- 0.00161 min 8.0888e-05 max 0.017892186 sum 5.97277234
+[17] 4030 socket used, resolved to 10.241.35.179:8080, connection timing : count 4030 avg 0.001484126 +/- 0.001576 min 8.2189e-05 max 0.019480964 sum 5.98102773
+[18] 4009 socket used, resolved to 10.241.35.179:8080, connection timing : count 4009 avg 0.0015025489 +/- 0.00164 min 8.8576e-05 max 0.023132826 sum 6.02371866
+[19] 3984 socket used, resolved to 10.241.35.179:8080, connection timing : count 3984 avg 0.0014965959 +/- 0.001552 min 9.2464e-05 max 0.01385239 sum 5.96243794
+[20] 4012 socket used, resolved to 10.241.35.179:8080, connection timing : count 4012 avg 0.0015184536 +/- 0.001558 min 9.0244e-05 max 0.015451055 sum 6.09203581
+[21] 4004 socket used, resolved to 10.241.35.179:8080, connection timing : count 4004 avg 0.001487921 +/- 0.001569 min 7.6906e-05 max 0.018350482 sum 5.95763584
+[22] 4037 socket used, resolved to 10.241.35.179:8080, connection timing : count 4037 avg 0.0014958795 +/- 0.00158 min 8.3879e-05 max 0.020815788 sum 6.03886573
+[23] 4072 socket used, resolved to 10.241.35.179:8080, connection timing : count 4072 avg 0.0014772929 +/- 0.001515 min 8.5154e-05 max 0.020339518 sum 6.01553678
+[24] 4027 socket used, resolved to 10.241.35.179:8080, connection timing : count 4027 avg 0.0015147647 +/- 0.001611 min 8.2401e-05 max 0.019812815 sum 6.09995758
+[25] 4003 socket used, resolved to 10.241.35.179:8080, connection timing : count 4003 avg 0.0015051465 +/- 0.001587 min 8.7043e-05 max 0.018670966 sum 6.02510139
+[26] 4060 socket used, resolved to 10.241.35.179:8080, connection timing : count 4060 avg 0.0014880631 +/- 0.001629 min 7.936e-05 max 0.019495029 sum 6.04153616
+[27] 4057 socket used, resolved to 10.241.35.179:8080, connection timing : count 4057 avg 0.0014848612 +/- 0.001595 min 8.6419e-05 max 0.017076514 sum 6.0240817
+[28] 4033 socket used, resolved to 10.241.35.179:8080, connection timing : count 4033 avg 0.0015059101 +/- 0.001548 min 8.5755e-05 max 0.018719874 sum 6.07333526
+[29] 4029 socket used, resolved to 10.241.35.179:8080, connection timing : count 4029 avg 0.0015055647 +/- 0.001662 min 8.0081e-05 max 0.036081128 sum 6.06592004
+[30] 4079 socket used, resolved to 10.241.35.179:8080, connection timing : count 4079 avg 0.0015059177 +/- 0.001623 min 9.1303e-05 max 0.020756816 sum 6.14263848
+[31] 4072 socket used, resolved to 10.241.35.179:8080, connection timing : count 4072 avg 0.0014955709 +/- 0.001528 min 8.8115e-05 max 0.013621601 sum 6.0899647
+[32] 4064 socket used, resolved to 10.241.35.179:8080, connection timing : count 4064 avg 0.0015232644 +/- 0.001644 min 9.3695e-05 max 0.022869038 sum 6.19054654
+[33] 4015 socket used, resolved to 10.241.35.179:8080, connection timing : count 4015 avg 0.0014830765 +/- 0.001612 min 8.188e-05 max 0.022152265 sum 5.95455199
+[34] 3999 socket used, resolved to 10.241.35.179:8080, connection timing : count 3999 avg 0.0015407785 +/- 0.001639 min 9.1713e-05 max 0.018066173 sum 6.16157316
+[35] 4044 socket used, resolved to 10.241.35.179:8080, connection timing : count 4044 avg 0.0015331608 +/- 0.00162 min 8.043e-05 max 0.015729294 sum 6.2001023
+[36] 4047 socket used, resolved to 10.241.35.179:8080, connection timing : count 4047 avg 0.001481686 +/- 0.001557 min 9.1055e-05 max 0.013036623 sum 5.99638307
+[37] 3972 socket used, resolved to 10.241.35.179:8080, connection timing : count 3972 avg 0.0015004548 +/- 0.001587 min 8.3092e-05 max 0.018159747 sum 5.95980641
+[38] 4006 socket used, resolved to 10.241.35.179:8080, connection timing : count 4006 avg 0.0014807277 +/- 0.001585 min 8.738e-05 max 0.014281589 sum 5.9317951
+[39] 4014 socket used, resolved to 10.241.35.179:8080, connection timing : count 4014 avg 0.0015324969 +/- 0.001578 min 8.031e-05 max 0.015041434 sum 6.15144274
+[40] 4045 socket used, resolved to 10.241.35.179:8080, connection timing : count 4045 avg 0.0014601554 +/- 0.001548 min 9.219e-05 max 0.02004209 sum 5.90632842
+[41] 4008 socket used, resolved to 10.241.35.179:8080, connection timing : count 4008 avg 0.0014862496 +/- 0.001618 min 8.305e-05 max 0.020111903 sum 5.95688855
+[42] 4002 socket used, resolved to 10.241.35.179:8080, connection timing : count 4002 avg 0.0014956682 +/- 0.001564 min 8.4665e-05 max 0.014316977 sum 5.98566415
+[43] 4013 socket used, resolved to 10.241.35.179:8080, connection timing : count 4013 avg 0.0015196621 +/- 0.001588 min 8.4784e-05 max 0.017910099 sum 6.09840393
+[44] 4059 socket used, resolved to 10.241.35.179:8080, connection timing : count 4059 avg 0.0015322344 +/- 0.001562 min 9.1974e-05 max 0.014988678 sum 6.21933955
+[45] 4018 socket used, resolved to 10.241.35.179:8080, connection timing : count 4018 avg 0.0015200877 +/- 0.001601 min 8.3512e-05 max 0.015418202 sum 6.10771219
+[46] 4049 socket used, resolved to 10.241.35.179:8080, connection timing : count 4049 avg 0.0014818959 +/- 0.001583 min 8.7311e-05 max 0.016467737 sum 6.00019664
+[47] 4022 socket used, resolved to 10.241.35.179:8080, connection timing : count 4022 avg 0.0014963161 +/- 0.001598 min 8.6117e-05 max 0.016939047 sum 6.01818324
+[48] 4044 socket used, resolved to 10.241.35.179:8080, connection timing : count 4044 avg 0.0015253331 +/- 0.001629 min 8.4576e-05 max 0.031598364 sum 6.16844691
+[49] 4002 socket used, resolved to 10.241.35.179:8080, connection timing : count 4002 avg 0.0015060796 +/- 0.001559 min 8.3547e-05 max 0.015321327 sum 6.02733067
+[50] 4016 socket used, resolved to 10.241.35.179:8080, connection timing : count 4016 avg 0.001481396 +/- 0.001547 min 9.0356e-05 max 0.015982078 sum 5.94928646
+[51] 4035 socket used, resolved to 10.241.35.179:8080, connection timing : count 4035 avg 0.0015340818 +/- 0.001586 min 8.7248e-05 max 0.01531368 sum 6.19001996
+[52] 4051 socket used, resolved to 10.241.35.179:8080, connection timing : count 4051 avg 0.0014592447 +/- 0.00159 min 8.3322e-05 max 0.018995025 sum 5.91140036
+[53] 4041 socket used, resolved to 10.241.35.179:8080, connection timing : count 4041 avg 0.0014873559 +/- 0.001607 min 8.9644e-05 max 0.03097689 sum 6.01040527
+[54] 4047 socket used, resolved to 10.241.35.179:8080, connection timing : count 4047 avg 0.0014654919 +/- 0.001518 min 8.4004e-05 max 0.016485612 sum 5.93084587
+[55] 4048 socket used, resolved to 10.241.35.179:8080, connection timing : count 4048 avg 0.0014889913 +/- 0.00157 min 8.9173e-05 max 0.022998799 sum 6.02743661
+[56] 4042 socket used, resolved to 10.241.35.179:8080, connection timing : count 4042 avg 0.0014533366 +/- 0.001503 min 8.6071e-05 max 0.017032208 sum 5.87438635
+[57] 3998 socket used, resolved to 10.241.35.179:8080, connection timing : count 3998 avg 0.0015018379 +/- 0.001528 min 8.0923e-05 max 0.015261537 sum 6.00434779
+[58] 4065 socket used, resolved to 10.241.35.179:8080, connection timing : count 4065 avg 0.0014845012 +/- 0.001498 min 7.5438e-05 max 0.014826415 sum 6.03449734
+[59] 4000 socket used, resolved to 10.241.35.179:8080, connection timing : count 4000 avg 0.0014986637 +/- 0.00159 min 8.6648e-05 max 0.020350821 sum 5.99465491
+[60] 4061 socket used, resolved to 10.241.35.179:8080, connection timing : count 4061 avg 0.0014552086 +/- 0.001535 min 8.8761e-05 max 0.014718407 sum 5.90960224
+[61] 4028 socket used, resolved to 10.241.35.179:8080, connection timing : count 4028 avg 0.0014666728 +/- 0.001539 min 8.263e-05 max 0.015464342 sum 5.90775823
+[62] 4008 socket used, resolved to 10.241.35.179:8080, connection timing : count 4008 avg 0.0015133475 +/- 0.001663 min 8.7075e-05 max 0.031115625 sum 6.06549681
+[63] 4058 socket used, resolved to 10.241.35.179:8080, connection timing : count 4058 avg 0.0015229505 +/- 0.001589 min 8.8843e-05 max 0.018138955 sum 6.18013301
+[64] 4044 socket used, resolved to 10.241.35.179:8080, connection timing : count 4044 avg 0.0014941333 +/- 0.001592 min 8.2455e-05 max 0.015407105 sum 6.04227514
+[65] 4013 socket used, resolved to 10.241.35.179:8080, connection timing : count 4013 avg 0.001504142 +/- 0.001519 min 8.4846e-05 max 0.015584718 sum 6.03612186
+[66] 4077 socket used, resolved to 10.241.35.179:8080, connection timing : count 4077 avg 0.0014858656 +/- 0.001561 min 8.1979e-05 max 0.01836703 sum 6.05787424
+[67] 4006 socket used, resolved to 10.241.35.179:8080, connection timing : count 4006 avg 0.0014737426 +/- 0.001509 min 7.8303e-05 max 0.013994613 sum 5.90381267
+[68] 4037 socket used, resolved to 10.241.35.179:8080, connection timing : count 4037 avg 0.0015225132 +/- 0.001637 min 8.1021e-05 max 0.020151772 sum 6.14638596
+[69] 4052 socket used, resolved to 10.241.35.179:8080, connection timing : count 4052 avg 0.0015184546 +/- 0.001671 min 7.4769e-05 max 0.019720909 sum 6.15277799
+[70] 4002 socket used, resolved to 10.241.35.179:8080, connection timing : count 4002 avg 0.0014857595 +/- 0.001581 min 7.9202e-05 max 0.016860017 sum 5.94600941
+[71] 4020 socket used, resolved to 10.241.35.179:8080, connection timing : count 4020 avg 0.0015051842 +/- 0.001567 min 8.7584e-05 max 0.015342476 sum 6.05084041
+[72] 4016 socket used, resolved to 10.241.35.179:8080, connection timing : count 4016 avg 0.0014872486 +/- 0.001539 min 8.4456e-05 max 0.018126648 sum 5.97279021
+[73] 4002 socket used, resolved to 10.241.35.179:8080, connection timing : count 4002 avg 0.0015110104 +/- 0.001593 min 7.9704e-05 max 0.018849243 sum 6.0470637
+[74] 3956 socket used, resolved to 10.241.35.179:8080, connection timing : count 3956 avg 0.0015156479 +/- 0.001575 min 8.8591e-05 max 0.023157451 sum 5.99590323
+[75] 4016 socket used, resolved to 10.241.35.179:8080, connection timing : count 4016 avg 0.0014850447 +/- 0.001512 min 8.4259e-05 max 0.017911042 sum 5.96393934
+[76] 4028 socket used, resolved to 10.241.35.179:8080, connection timing : count 4028 avg 0.0014961601 +/- 0.001583 min 8.6228e-05 max 0.014075789 sum 6.02653275
+[77] 4060 socket used, resolved to 10.241.35.179:8080, connection timing : count 4060 avg 0.0014978109 +/- 0.001548 min 7.8365e-05 max 0.015224392 sum 6.08111224
+[78] 4007 socket used, resolved to 10.241.35.179:8080, connection timing : count 4007 avg 0.0015109401 +/- 0.00164 min 8.7098e-05 max 0.020392403 sum 6.05433701
+[79] 4048 socket used, resolved to 10.241.35.179:8080, connection timing : count 4048 avg 0.0015024304 +/- 0.001588 min 8.3738e-05 max 0.014962143 sum 6.08183831
+[80] 4037 socket used, resolved to 10.241.35.179:8080, connection timing : count 4037 avg 0.0014930562 +/- 0.001608 min 8.3933e-05 max 0.015979502 sum 6.02746772
+[81] 3993 socket used, resolved to 10.241.35.179:8080, connection timing : count 3993 avg 0.0015149848 +/- 0.001666 min 8.225e-05 max 0.021961734 sum 6.04933442
+[82] 3986 socket used, resolved to 10.241.35.179:8080, connection timing : count 3986 avg 0.0015029415 +/- 0.001618 min 9.3864e-05 max 0.01903011 sum 5.99072484
+[83] 4084 socket used, resolved to 10.241.35.179:8080, connection timing : count 4084 avg 0.0014406124 +/- 0.001487 min 8.0066e-05 max 0.018213621 sum 5.88346108
+[84] 4045 socket used, resolved to 10.241.35.179:8080, connection timing : count 4045 avg 0.0014572682 +/- 0.001631 min 8.668e-05 max 0.020733966 sum 5.89464971
+[85] 4050 socket used, resolved to 10.241.35.179:8080, connection timing : count 4050 avg 0.0014956927 +/- 0.00158 min 8.3314e-05 max 0.016357402 sum 6.05755547
+[86] 4055 socket used, resolved to 10.241.35.179:8080, connection timing : count 4055 avg 0.00150645 +/- 0.00161 min 7.7142e-05 max 0.019668457 sum 6.10865491
+[87] 4047 socket used, resolved to 10.241.35.179:8080, connection timing : count 4047 avg 0.0014670435 +/- 0.001496 min 8.377e-05 max 0.013748762 sum 5.93712522
+[88] 4024 socket used, resolved to 10.241.35.179:8080, connection timing : count 4024 avg 0.0015068181 +/- 0.001684 min 8.8871e-05 max 0.025297364 sum 6.06343601
+[89] 4019 socket used, resolved to 10.241.35.179:8080, connection timing : count 4019 avg 0.0014909591 +/- 0.001574 min 8.207e-05 max 0.020910778 sum 5.99216466
+[90] 4031 socket used, resolved to 10.241.35.179:8080, connection timing : count 4031 avg 0.0014734933 +/- 0.001596 min 8.2881e-05 max 0.015669408 sum 5.93965159
+[91] 4051 socket used, resolved to 10.241.35.179:8080, connection timing : count 4051 avg 0.0015020217 +/- 0.001584 min 8.0755e-05 max 0.020342253 sum 6.08469005
+[92] 4040 socket used, resolved to 10.241.35.179:8080, connection timing : count 4040 avg 0.0014840787 +/- 0.001535 min 8.5285e-05 max 0.015345681 sum 5.99567778
+[93] 3995 socket used, resolved to 10.241.35.179:8080, connection timing : count 3995 avg 0.0015231826 +/- 0.001619 min 8.5533e-05 max 0.016646766 sum 6.08511444
+[94] 4060 socket used, resolved to 10.241.35.179:8080, connection timing : count 4060 avg 0.0014912824 +/- 0.001578 min 8.6213e-05 max 0.026050667 sum 6.05460647
+[95] 3979 socket used, resolved to 10.241.35.179:8080, connection timing : count 3979 avg 0.0015098967 +/- 0.0016 min 8.827e-05 max 0.0165719 sum 6.00787898
+[96] 3994 socket used, resolved to 10.241.35.179:8080, connection timing : count 3994 avg 0.0014996967 +/- 0.001558 min 8.527e-05 max 0.016517122 sum 5.98978864
+[97] 3993 socket used, resolved to 10.241.35.179:8080, connection timing : count 3993 avg 0.0015105591 +/- 0.001587 min 8.351e-05 max 0.020548408 sum 6.0316623
+[98] 4067 socket used, resolved to 10.241.35.179:8080, connection timing : count 4067 avg 0.0014556184 +/- 0.001493 min 7.8258e-05 max 0.013740654 sum 5.91999997
+[99] 3972 socket used, resolved to 10.241.35.179:8080, connection timing : count 3972 avg 0.0015300423 +/- 0.001621 min 8.586e-05 max 0.020110559 sum 6.07732802
+[100] 4031 socket used, resolved to 10.241.35.179:8080, connection timing : count 4031 avg 0.0014967829 +/- 0.001622 min 8.2556e-05 max 0.018109936 sum 6.03353187
+[101] 4010 socket used, resolved to 10.241.35.179:8080, connection timing : count 4010 avg 0.0014726363 +/- 0.001486 min 8.9503e-05 max 0.012819256 sum 5.90527176
+[102] 4023 socket used, resolved to 10.241.35.179:8080, connection timing : count 4023 avg 0.0015428622 +/- 0.001643 min 8.6921e-05 max 0.015931843 sum 6.20693466
+[103] 4016 socket used, resolved to 10.241.35.179:8080, connection timing : count 4016 avg 0.0014873532 +/- 0.00161 min 9.3084e-05 max 0.01923297 sum 5.97321065
+[104] 3993 socket used, resolved to 10.241.35.179:8080, connection timing : count 3993 avg 0.0014948919 +/- 0.001643 min 8.7723e-05 max 0.021069521 sum 5.96910348
+[105] 4013 socket used, resolved to 10.241.35.179:8080, connection timing : count 4013 avg 0.0015015705 +/- 0.001539 min 8.6056e-05 max 0.020833488 sum 6.02580239
+[106] 3986 socket used, resolved to 10.241.35.179:8080, connection timing : count 3986 avg 0.0015134789 +/- 0.001599 min 8.1896e-05 max 0.022163241 sum 6.03272672
+[107] 3979 socket used, resolved to 10.241.35.179:8080, connection timing : count 3979 avg 0.0015339047 +/- 0.001595 min 8.8756e-05 max 0.015535971 sum 6.1034067
+[108] 4040 socket used, resolved to 10.241.35.179:8080, connection timing : count 4040 avg 0.001480602 +/- 0.001574 min 8.8743e-05 max 0.014735211 sum 5.98163202
+[109] 4039 socket used, resolved to 10.241.35.179:8080, connection timing : count 4039 avg 0.0014933959 +/- 0.00157 min 7.9708e-05 max 0.020014018 sum 6.03182589
+[110] 3960 socket used, resolved to 10.241.35.179:8080, connection timing : count 3960 avg 0.0015132393 +/- 0.001651 min 9.078e-05 max 0.021195648 sum 5.99242768
+[111] 4009 socket used, resolved to 10.241.35.179:8080, connection timing : count 4009 avg 0.0015125353 +/- 0.001619 min 8.8036e-05 max 0.029367759 sum 6.06375417
+[112] 4056 socket used, resolved to 10.241.35.179:8080, connection timing : count 4056 avg 0.00148715 +/- 0.001536 min 8.2305e-05 max 0.023026816 sum 6.03188048
+[113] 4052 socket used, resolved to 10.241.35.179:8080, connection timing : count 4052 avg 0.0015120372 +/- 0.001599 min 8.3863e-05 max 0.01798142 sum 6.12677492
+[114] 4042 socket used, resolved to 10.241.35.179:8080, connection timing : count 4042 avg 0.0014754422 +/- 0.001515 min 8.5568e-05 max 0.012784597 sum 5.96373729
+[115] 3953 socket used, resolved to 10.241.35.179:8080, connection timing : count 3953 avg 0.001545533 +/- 0.001605 min 9.1806e-05 max 0.01799084 sum 6.10949176
+[116] 4004 socket used, resolved to 10.241.35.179:8080, connection timing : count 4004 avg 0.0015332521 +/- 0.001607 min 8.884e-05 max 0.02150463 sum 6.13914139
+[117] 4048 socket used, resolved to 10.241.35.179:8080, connection timing : count 4048 avg 0.0014890824 +/- 0.001568 min 8.6569e-05 max 0.01903572 sum 6.02780536
+[118] 4032 socket used, resolved to 10.241.35.179:8080, connection timing : count 4032 avg 0.0014852118 +/- 0.001539 min 9.0478e-05 max 0.014184998 sum 5.98837407
+[119] 4033 socket used, resolved to 10.241.35.179:8080, connection timing : count 4033 avg 0.0014921447 +/- 0.001581 min 8.8659e-05 max 0.022662095 sum 6.01781976
+[120] 4041 socket used, resolved to 10.241.35.179:8080, connection timing : count 4041 avg 0.0015165102 +/- 0.001561 min 8.6008e-05 max 0.015598465 sum 6.12821787
+[121] 4013 socket used, resolved to 10.241.35.179:8080, connection timing : count 4013 avg 0.0014804807 +/- 0.001537 min 8.9377e-05 max 0.01962329 sum 5.94116917
+[122] 4015 socket used, resolved to 10.241.35.179:8080, connection timing : count 4015 avg 0.0014499474 +/- 0.001507 min 8.9232e-05 max 0.016973596 sum 5.82153899
+[123] 3993 socket used, resolved to 10.241.35.179:8080, connection timing : count 3993 avg 0.0015338272 +/- 0.001596 min 8.4485e-05 max 0.017019235 sum 6.12457215
+[124] 4000 socket used, resolved to 10.241.35.179:8080, connection timing : count 4000 avg 0.0014658665 +/- 0.001483 min 8.9171e-05 max 0.013873422 sum 5.86346587
+[125] 4018 socket used, resolved to 10.241.35.179:8080, connection timing : count 4018 avg 0.0014932209 +/- 0.001593 min 8.8955e-05 max 0.016379446 sum 5.99976149
+[126] 4051 socket used, resolved to 10.241.35.179:8080, connection timing : count 4051 avg 0.0014742906 +/- 0.001506 min 7.6613e-05 max 0.014570613 sum 5.97235108
+[127] 4035 socket used, resolved to 10.241.35.179:8080, connection timing : count 4035 avg 0.0014929542 +/- 0.001579 min 9.0913e-05 max 0.017846788 sum 6.02407016
+Sockets used: 515414 (for perfect keepalive, would be 128)
+Uniform: false, Jitter: false, Catchup allowed: true
+IP addresses distribution:
+10.241.35.179:8080: 515414
+Code 200 : 515286 (100.0 %)
+All done 515286 calls (plus 128 warmup) 7.452 ms avg, 17173.6 qps

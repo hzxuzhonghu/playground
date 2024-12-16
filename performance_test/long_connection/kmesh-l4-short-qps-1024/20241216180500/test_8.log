@@ -1,0 +1,23 @@
+[91m[0mFortio 1.66.5 running at 1024 queries per second, 4->4 procs, for 30s: http://fortio-server.test:8080
+Aggregated Function Time : count 30720 avg 0.0009859548 +/- 0.0002266 min 0.000547459 max 0.007096401 sum 30.2885314
+# target 50% 0.000898109
+# target 75% 0.00130009
+# target 90% 0.00172994
+# target 99% 0.00198785
+# target 99.9% 0.00434889
+Error cases : count 0 avg 0 +/- 0 min 0 max 0 sum 0
+# Socket and IP used for each connection:
+[0] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00023181795 +/- 0.0001501 min 8.3808e-05 max 0.006111731 sum 0.890412749
+[1] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00023157074 +/- 0.0001175 min 8.6678e-05 max 0.004665874 sum 0.889463225
+[2] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00023281217 +/- 0.0001213 min 8.747e-05 max 0.004705757 sum 0.894231526
+[3] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00022956044 +/- 0.0001168 min 8.6601e-05 max 0.004540528 sum 0.881741634
+[4] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00023290913 +/- 0.0001074 min 7.8666e-05 max 0.004605216 sum 0.894603983
+[5] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00023263136 +/- 0.0001381 min 9.0675e-05 max 0.004780355 sum 0.893537068
+[6] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00022986841 +/- 8.133e-05 min 8.8414e-05 max 0.002145755 sum 0.882924569
+[7] 3841 socket used, resolved to 10.241.35.179:8080, connection timing : count 3841 avg 0.00023067866 +/- 0.0001073 min 8.8577e-05 max 0.004597401 sum 0.886036732
+Sockets used: 30728 (for perfect keepalive, would be 8)
+Uniform: false, Jitter: false, Catchup allowed: true
+IP addresses distribution:
+10.241.35.179:8080: 30728
+Code 200 : 30720 (100.0 %)
+All done 30720 calls (plus 8 warmup) 0.986 ms avg, 1023.9 qps

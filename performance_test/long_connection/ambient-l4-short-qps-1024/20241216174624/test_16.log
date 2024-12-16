@@ -1,0 +1,31 @@
+[91m[0mFortio 1.66.5 running at 1024 queries per second, 4->4 procs, for 30s: http://fortio-server.test:8080
+Aggregated Function Time : count 30720 avg 0.0025152177 +/- 0.0004138 min 0.001249309 max 0.009003521 sum 77.2674891
+# target 50% 0.00250278
+# target 75% 0.00278581
+# target 90% 0.00295563
+# target 99% 0.00393182
+# target 99.9% 0.00688
+Error cases : count 0 avg 0 +/- 0 min 0 max 0 sum 0
+# Socket and IP used for each connection:
+[0] 1921 socket used, resolved to 10.241.35.179:8080, connection timing : count 1921 avg 0.00015180413 +/- 0.0001259 min 4.057e-05 max 0.002298707 sum 0.291615739
+[1] 1921 socket used, resolved to 10.241.35.179:8080, connection timing : count 1921 avg 0.00015380661 +/- 0.0001543 min 4.0053e-05 max 0.004688496 sum 0.2954625
+[2] 1921 socket used, resolved to 10.241.35.179:8080, connection timing : count 1921 avg 0.00014961062 +/- 0.0001167 min 2.7695e-05 max 0.001514303 sum 0.287401994
+[3] 1921 socket used, resolved to 10.241.35.179:8080, connection timing : count 1921 avg 0.00015185035 +/- 0.0001167 min 4.1316e-05 max 0.001124682 sum 0.291704514
+[4] 1921 socket used, resolved to 10.241.35.179:8080, connection timing : count 1921 avg 0.00014970421 +/- 0.0001127 min 3.5147e-05 max 0.000999183 sum 0.287581784
+[5] 1921 socket used, resolved to 10.241.35.179:8080, connection timing : count 1921 avg 0.00015293458 +/- 0.0001189 min 3.5974e-05 max 0.001049091 sum 0.293787325
+[6] 1921 socket used, resolved to 10.241.35.179:8080, connection timing : count 1921 avg 0.00014715991 +/- 0.000113 min 3.3197e-05 max 0.001110374 sum 0.282694187
+[7] 1921 socket used, resolved to 10.241.35.179:8080, connection timing : count 1921 avg 0.00014845797 +/- 0.0001157 min 3.7914e-05 max 0.001875796 sum 0.285187751
+[8] 1921 socket used, resolved to 10.241.35.179:8080, connection timing : count 1921 avg 0.00014949954 +/- 0.0001172 min 3.1811e-05 max 0.002083403 sum 0.287188625
+[9] 1921 socket used, resolved to 10.241.35.179:8080, connection timing : count 1921 avg 0.00015119136 +/- 0.0001466 min 3.8745e-05 max 0.004349596 sum 0.290438605
+[10] 1921 socket used, resolved to 10.241.35.179:8080, connection timing : count 1921 avg 0.00014854249 +/- 0.0001101 min 3.9751e-05 max 0.001011922 sum 0.285350128
+[11] 1921 socket used, resolved to 10.241.35.179:8080, connection timing : count 1921 avg 0.00015168442 +/- 0.0001133 min 3.9708e-05 max 0.00097554 sum 0.291385775
+[12] 1921 socket used, resolved to 10.241.35.179:8080, connection timing : count 1921 avg 0.00014786428 +/- 0.0001194 min 3.6905e-05 max 0.00271171 sum 0.284047284
+[13] 1921 socket used, resolved to 10.241.35.179:8080, connection timing : count 1921 avg 0.00014956369 +/- 0.0001316 min 3.3795e-05 max 0.002100838 sum 0.28731185
+[14] 1921 socket used, resolved to 10.241.35.179:8080, connection timing : count 1921 avg 0.00014857792 +/- 0.0001112 min 2.8973e-05 max 0.001016993 sum 0.285418193
+[15] 1921 socket used, resolved to 10.241.35.179:8080, connection timing : count 1921 avg 0.00015112976 +/- 0.0001232 min 3.4147e-05 max 0.002419475 sum 0.290320276
+Sockets used: 30736 (for perfect keepalive, would be 16)
+Uniform: false, Jitter: false, Catchup allowed: true
+IP addresses distribution:
+10.241.35.179:8080: 30736
+Code 200 : 30720 (100.0 %)
+All done 30720 calls (plus 16 warmup) 2.515 ms avg, 1023.9 qps

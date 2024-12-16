@@ -1,0 +1,23 @@
+[91m[0mFortio 1.66.5 running at 0 queries per second, 4->4 procs, for 30s: http://fortio-server.test:8080
+Aggregated Function Time : count 138975 avg 0.00172631 +/- 0.0006062 min 0.000633174 max 0.013316012 sum 239.913926
+# target 50% 0.00160205
+# target 75% 0.00191388
+# target 90% 0.0025197
+# target 99% 0.00431605
+# target 99.9% 0.0077502
+Error cases : count 0 avg 0 +/- 0 min 0 max 0 sum 0
+# Socket and IP used for each connection:
+[0] 17382 socket used, resolved to 10.241.35.179:8080, connection timing : count 17382 avg 0.00014284375 +/- 0.000138 min 2.5107e-05 max 0.004670512 sum 2.48291005
+[1] 17414 socket used, resolved to 10.241.35.179:8080, connection timing : count 17414 avg 0.00014611209 +/- 0.0001429 min 2.5664e-05 max 0.004664564 sum 2.54439594
+[2] 17386 socket used, resolved to 10.241.35.179:8080, connection timing : count 17386 avg 0.00014580937 +/- 0.0001644 min 2.5357e-05 max 0.008353713 sum 2.53504174
+[3] 17381 socket used, resolved to 10.241.35.179:8080, connection timing : count 17381 avg 0.00014555627 +/- 0.0001474 min 2.5575e-05 max 0.00472619 sum 2.52991349
+[4] 17347 socket used, resolved to 10.241.35.179:8080, connection timing : count 17347 avg 0.00014501617 +/- 0.0001444 min 2.6603e-05 max 0.005840214 sum 2.51559542
+[5] 17349 socket used, resolved to 10.241.35.179:8080, connection timing : count 17349 avg 0.00014400617 +/- 0.0001397 min 2.6021e-05 max 0.004346151 sum 2.49836296
+[6] 17377 socket used, resolved to 10.241.35.179:8080, connection timing : count 17377 avg 0.00014422021 +/- 0.0001397 min 2.6624e-05 max 0.004297142 sum 2.50611451
+[7] 17347 socket used, resolved to 10.241.35.179:8080, connection timing : count 17347 avg 0.00014565433 +/- 0.0001422 min 2.606e-05 max 0.005099936 sum 2.52666569
+Sockets used: 138983 (for perfect keepalive, would be 8)
+Uniform: false, Jitter: false, Catchup allowed: true
+IP addresses distribution:
+10.241.35.179:8080: 138983
+Code 200 : 138975 (100.0 %)
+All done 138975 calls (plus 8 warmup) 1.726 ms avg, 4632.3 qps

@@ -1,0 +1,23 @@
+[91m[0mFortio 1.66.5 running at 0 queries per second, 4->4 procs, for 30s: http://fortio-server.test:8080
+Aggregated Function Time : count 134652 avg 0.001781919 +/- 0.0005815 min 0.000516641 max 0.012482102 sum 239.938953
+# target 50% 0.00168979
+# target 75% 0.00214812
+# target 90% 0.00270452
+# target 99% 0.00381575
+# target 99.9% 0.0070465
+Error cases : count 0 avg 0 +/- 0 min 0 max 0 sum 0
+# Socket and IP used for each connection:
+[0] 16820 socket used, resolved to 10.241.35.179:8080, connection timing : count 16820 avg 0.00019735285 +/- 0.00012 min 8.1723e-05 max 0.003944745 sum 3.31947501
+[1] 16868 socket used, resolved to 10.241.35.179:8080, connection timing : count 16868 avg 0.00019632402 +/- 0.0001126 min 8.3898e-05 max 0.003400991 sum 3.31159359
+[2] 16833 socket used, resolved to 10.241.35.179:8080, connection timing : count 16833 avg 0.00019722367 +/- 0.0001364 min 7.8662e-05 max 0.006814744 sum 3.31986602
+[3] 16836 socket used, resolved to 10.241.35.179:8080, connection timing : count 16836 avg 0.00019692646 +/- 0.0001193 min 7.9199e-05 max 0.005492945 sum 3.31545389
+[4] 16833 socket used, resolved to 10.241.35.179:8080, connection timing : count 16833 avg 0.00019829621 +/- 0.0001219 min 8.2479e-05 max 0.004609878 sum 3.33792013
+[5] 16772 socket used, resolved to 10.241.35.179:8080, connection timing : count 16772 avg 0.00019631573 +/- 0.0001105 min 8.5185e-05 max 0.003782534 sum 3.29260736
+[6] 16852 socket used, resolved to 10.241.35.179:8080, connection timing : count 16852 avg 0.0001965791 +/- 0.0001222 min 8.2977e-05 max 0.005448205 sum 3.312751
+[7] 16846 socket used, resolved to 10.241.35.179:8080, connection timing : count 16846 avg 0.00019623191 +/- 0.0001259 min 8.2479e-05 max 0.00556112 sum 3.30572278
+Sockets used: 134660 (for perfect keepalive, would be 8)
+Uniform: false, Jitter: false, Catchup allowed: true
+IP addresses distribution:
+10.241.35.179:8080: 134660
+Code 200 : 134652 (100.0 %)
+All done 134652 calls (plus 8 warmup) 1.782 ms avg, 4488.1 qps
