@@ -1,6 +1,3 @@
-area:
-
-
 kind:
   - failing-test
   - cleanup
