@@ -1,0 +1,12 @@
+area:
+
+
+kind:
+  - failing-test
+  - cleanup
+  - feature
+  - bug
+
+priority:
+  - low
+  - high
