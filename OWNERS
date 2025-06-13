@@ -5,5 +5,9 @@ reviewers:
 
 # List of usernames who may use /approve
 approvers:
+<<<<<<< hzxuzhonghu-patch-4
+  - lizhencheng9527
+=======
   - hzxuzhonghu
   - LiZhenCheng9527
+>>>>>>> main
