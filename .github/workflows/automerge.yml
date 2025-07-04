@@ -20,7 +20,19 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - name: automerge
+      - name: Check for approval
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          APPROVALS=$(gh pr view $PR_NUMBER --json reviews --jq 'map(select(.state == "APPROVED")) | length')
+          echo "Found $APPROVALS approval(s)."
+          if [[ $APPROVALS -gt 0 ]]; then
+            echo "approved=true" >> $GITHUB_OUTPUT
+          else
+            echo "approved=false" >> $GITHUB_OUTPUT
+          fi
+      - name: automerge if approved
         uses: "pascalgn/automerge-action@v0.16.4"
         env:
           GITHUB_TOKEN: "${{ secrets.GH_TOKEN }}"
