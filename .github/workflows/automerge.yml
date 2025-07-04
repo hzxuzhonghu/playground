@@ -12,7 +12,7 @@ on:
   check_suite:
     types:
       - completed
-  status: { }
+  status: {}
 jobs:
   automerge:
     runs-on: ubuntu-latest
@@ -35,7 +35,7 @@ jobs:
       - name: automerge if approved
         uses: "pascalgn/automerge-action@v0.16.4"
         env:
-          GITHUB_TOKEN: "${{ secrets.GH_TOKEN }}"
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           MERGE_LABELS: "lgtm"
           MERGE_METHOD: "squash"
           MERGE_COMMIT_MESSAGE: "automatic"
