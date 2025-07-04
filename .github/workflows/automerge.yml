@@ -25,7 +25,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_NUMBER: ${{ github.event.issue.number }}
         run: |
-          APPROVALS=$(gh pr view $PR_NUMBER --json reviews --jq 'map(select(.state == "APPROVED")) | length')
+          APPROVALS=$(gh pr view $PR_NUMBER --repo $REPO --json reviews --jq 'map(select(.state == "APPROVED")) | length')
           echo "Found $APPROVALS approval(s)."
           if [[ $APPROVALS -gt 0 ]]; then
             echo "approved=true" >> $GITHUB_OUTPUT
