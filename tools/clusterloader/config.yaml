@@ -1,0 +1,46 @@
+name: pod-operations-test
+namespace:
+  basename: "pod-test"
+  count: 1
+  deleteOnMetricsGathering: true
+
+tuningSets:
+- name: "heavy-load"
+  qps: 20
+  burst: 40
+
+steps:
+- name: "create-pods"
+  phases:
+  - duration: 2m30s
+    tuningSet: "heavy-load"
+    objectBasename: "test-pod"
+    objectTemplatePath: "pod-template.yaml"
+    replicasPerNamespace: 100
+- name: "get-pods"
+  phases:
+  - duration: 2m30s
+    tuningSet: "heavy-load"
+    objectBasename: "test-pod"
+    objectTemplatePath: "pod-template.yaml"
+    replicasPerNamespace: 100
+    runStrategy:
+      type: "Get"
+- name: "patch-pods"
+  phases:
+  - duration: 2m30s
+    tuningSet: "heavy-load"
+    objectBasename: "test-pod"
+    objectTemplatePath: "pod-template.yaml"
+    replicasPerNamespace: 100
+    runStrategy:
+      type: "Patch"
+- name: "update-pods"
+  phases:
+  - duration: 2m30s
+    tuningSet: "heavy-load"
+    objectBasename: "test-pod"
+    objectTemplatePath: "pod-template.yaml"
+    replicasPerNamespace: 100
+    runStrategy:
+      type: "Update"
