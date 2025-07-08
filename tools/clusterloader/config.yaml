@@ -1,46 +1,36 @@
-name: pod-operations-test
-namespace:
-  basename: "pod-test"
-  count: 1
-  deleteOnMetricsGathering: true
+apiVersion: test/v1
+kind: Config
+metadata:
+  name: get-patch-update-test
+spec:
+  namespace:
+    number: 1
+    prefix: test
+  tuningSets:
+  - name: UniformQPS
+    qpsLoad:
+      qps: 5
+  steps:
+  - name: Create 10 pods
+    phases:
+    - replicasPerNamespace: 10
+      tuningSet: UniformQPS
+      objectBundle:
+      - basename: test-pod
+        objectTemplatePath: pod.yaml
 
-tuningSets:
-- name: "heavy-load"
-  qps: 20
-  burst: 40
+  - name: GET pods via APIResponsiveness
+    measurements:
+      - Identifier: "get-pods"
+        Method: "APIResponsiveness"
+        Params:
+          action: get
+          resource: pods
 
-steps:
-- name: "create-pods"
-  phases:
-  - duration: 2m30s
-    tuningSet: "heavy-load"
-    objectBasename: "test-pod"
-    objectTemplatePath: "pod-template.yaml"
-    replicasPerNamespace: 100
-- name: "get-pods"
-  phases:
-  - duration: 2m30s
-    tuningSet: "heavy-load"
-    objectBasename: "test-pod"
-    objectTemplatePath: "pod-template.yaml"
-    replicasPerNamespace: 100
-    runStrategy:
-      type: "Get"
-- name: "patch-pods"
-  phases:
-  - duration: 2m30s
-    tuningSet: "heavy-load"
-    objectBasename: "test-pod"
-    objectTemplatePath: "pod-template.yaml"
-    replicasPerNamespace: 100
-    runStrategy:
-      type: "Patch"
-- name: "update-pods"
-  phases:
-  - duration: 2m30s
-    tuningSet: "heavy-load"
-    objectBasename: "test-pod"
-    objectTemplatePath: "pod-template.yaml"
-    replicasPerNamespace: 100
-    runStrategy:
-      type: "Update"
+  - name: PATCH/UPDATE pod labels
+    phases:
+    - replicasPerNamespace: 10
+      tuningSet: UniformQPS
+      updateObject:
+        objectTemplatePath: patch-pod.yaml
+        fieldPath: "metadata.labels"
