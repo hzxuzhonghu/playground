@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+echo "xx" $1
+cd $1
+
 # AUTHOR="foo@bar.com"
 # SINCE_DATE="2022-01-01"
 function contributions {
